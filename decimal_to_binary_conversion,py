@@ -1,0 +1,9 @@
+x=int(input("enter a number"))
+i=1
+j=0
+while(x>0):
+    r=int(x%2)  
+    j=j+(i*r)   
+    x=int(x//2) 
+    i=i*10      
+print("the binary number is ",j)    
